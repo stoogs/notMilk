@@ -14,23 +14,42 @@ body {
         justify-content: center;
     }
 
-    /* allnuts */
-    .allnuts {
-    display: flex;
-    justify-content: center;
-    }
-
 /* NAVBAR */
-.navbar { margin: 5%;}
-
 .navbar ul {
-    display: flex;
     list-style-type: none;
-    justify-content: space-around;
-    
 }
-    .navbar ul li { 
-        padding: 0px;
-        font-size: 2rem;
-        }
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2rem;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+}
+
+.navbarli .dropdown {
+    display: inline-block;
+}
+
+.navbar .dropdown-content {
+    display: none;
+    padding: 10px 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar .dropdown-content a:hover {
+    cursor: pointer;
+    background-color: wheat;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
 
