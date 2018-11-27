@@ -1,2 +1,2 @@
-**ignore/*
-**node_modules/*
+/media/apikeys
+/node_modules
