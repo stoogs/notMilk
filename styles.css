@@ -1,0 +1,36 @@
+/* BODY */
+body {
+    /* background-image: url("./media/background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover; */
+    font-family: 'Oswald', sans-serif;
+    background-color: ivory ;
+}
+/* -----HEADER----- */
+
+    /* Logo */
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* allnuts */
+    .allnuts {
+    display: flex;
+    justify-content: center;
+    }
+
+/* NAVBAR */
+.navbar { margin: 5%;}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    
+}
+    .navbar ul li { 
+        padding: 0px;
+        font-size: 2rem;
+        }
+
